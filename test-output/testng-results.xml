@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T14:36:04 IST" name="Suite" finished-at="2023-03-20T14:41:25 IST" duration-ms="321171">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T14:36:04 IST" name="Test" finished-at="2023-03-20T14:41:25 IST" duration-ms="321171">
+      <class name="TestCases.verifyFooter">
+        <test-method signature="Footer()[pri:0, instance:TestCases.verifyFooter@20ce78ec]" started-at="2023-03-20T14:40:00 IST" name="Footer" finished-at="2023-03-20T14:41:25 IST" duration-ms="85785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Footer -->
+      </class> <!-- TestCases.verifyFooter -->
+      <class name="TestCases.verifyHeader">
+        <test-method signature="header()[pri:0, instance:TestCases.verifyHeader@41fbdac4]" started-at="2023-03-20T14:36:04 IST" name="header" finished-at="2023-03-20T14:37:16 IST" duration-ms="71691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header -->
+      </class> <!-- TestCases.verifyHeader -->
+      <class name="TestCases.verifyMenuBar">
+        <test-method signature="verifyMainMenu()[pri:0, instance:TestCases.verifyMenuBar@7714e963]" started-at="2023-03-20T14:38:37 IST" name="verifyMainMenu" finished-at="2023-03-20T14:40:00 IST" duration-ms="82549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainMenu -->
+      </class> <!-- TestCases.verifyMenuBar -->
+      <class name="TestCases.verifyAddingProductToCart">
+        <test-method signature="VerifyAddToCartProduct()[pri:0, instance:TestCases.verifyAddingProductToCart@1dde4cb2]" started-at="2023-03-20T14:38:02 IST" name="VerifyAddToCartProduct" finished-at="2023-03-20T14:38:37 IST" duration-ms="34691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCartProduct -->
+      </class> <!-- TestCases.verifyAddingProductToCart -->
+      <class name="TestCases.verifyloginandregister">
+        <test-method signature="verifyloginandregisterr()[pri:0, instance:TestCases.verifyloginandregister@3835c46]" started-at="2023-03-20T14:37:16 IST" name="verifyloginandregisterr" finished-at="2023-03-20T14:38:02 IST" duration-ms="46356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginandregisterr -->
+      </class> <!-- TestCases.verifyloginandregister -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
