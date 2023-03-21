@@ -1,5 +1,7 @@
 package TestCases;
 
+import java.time.Duration;
+
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +24,7 @@ public class verifyFooter extends baseClass {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://naveenautomationlabs.com/opencart/");
 		FooterClass obj = new FooterClass(driver);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 //Information
 		obj.aboutUsClick().click();
